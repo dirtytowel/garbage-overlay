@@ -4,7 +4,7 @@ DESCRIPTION="scripts for my linux machines"
 HOMEPAGE="https://github.com/dirtytowel/scritps"
 
 inherit git-r3
-EGIT_REPO_URI="https://github.com/dirtytowel/scritps}}.git"
+EGIT_REPO_URI="https://github.com/dirtytowel/scritps.git"
 
 LICENSE="MIT"
 SLOT="0"
