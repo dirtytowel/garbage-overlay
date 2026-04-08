@@ -1,11 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=unpack
+DEFINED_PHASES=install unpack
 DESCRIPTION=scripts for my linux machines
 EAPI=8
-HOMEPAGE=https://github.com/ethanmlee/scritps
+HOMEPAGE=https://github.com/dirtytowel/scritps
 INHERIT=git-r3
+IUSE=animated_webp bm calc +clock cmenu desktop_mode dmu event_handler event_listener lock mpvcw notes pkgunmask polybar port portage_dir_share qs smartspwn sshmenu sw touchpad trackpoint urxvtcd weechat xresources
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=d35a774d1ccc23ecfb609a5f0a89ed17
+_eclasses_=git-r3	7b584b5dc33e3bc66ff5b9271bf41764
+_md5_=db62a9a2dde7c21aa2db29d3edd81165
