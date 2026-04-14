@@ -19,6 +19,6 @@ RDEPEND="
 "
 
 src_install() {
-	emake PREFIX="${D}/usr" install
+	emake PREFIX="${D}${EPREFIX}/bin" install
 	einstalldocs
 }
