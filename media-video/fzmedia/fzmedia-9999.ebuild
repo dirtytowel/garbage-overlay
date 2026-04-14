@@ -18,6 +18,8 @@ RDEPEND="
 	wget? ( net-misc/wget )
 "
 
+src_compile() { :; }
+
 src_install() {
 	emake PREFIX="${D}${EPREFIX}/bin" install
 	einstalldocs
