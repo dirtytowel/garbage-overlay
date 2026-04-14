@@ -21,6 +21,7 @@ RDEPEND="
 src_compile() { :; }
 
 src_install() {
-	emake PREFIX="${D}${EPREFIX}/bin" install
+	dodir /usr/bin
+	emake PREFIX="${D}${EPREFIX}/usr" install
 	einstalldocs
 }
