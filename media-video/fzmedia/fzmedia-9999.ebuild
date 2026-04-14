@@ -13,7 +13,7 @@ IUSE="+fzy +mpv +wget"
 
 RDEPEND="
 	dev-lang/python
-	fzy? ( app-test/fzy )
+	fzy? ( app-text/fzy )
 	mpv? ( media-video/mpv )
 	wget? ( net-misc/wget )
 "
