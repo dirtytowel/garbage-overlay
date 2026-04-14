@@ -19,5 +19,6 @@ RDEPEND="
 "
 
 src_install() {
-	newbin fzmedia.sh fzmedia
+	emake PREFIX="${D}/usr" install
+	einstalldocs
 }
