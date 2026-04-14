@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Just a shitty shell script to navigate file trees, play media files, and continue watching where you left off later.
+EAPI=8
+HOMEPAGE=https://github.com/dirtytowel/fzmedia
+INHERIT=git-r3
+IUSE=+fzy +mpv +wget
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/python fzy? ( app-misc/fzy ) mpv? ( media-video/mpv ) wget? ( net-misc/wget )
+SLOT=0
+_eclasses_=git-r3	7b584b5dc33e3bc66ff5b9271bf41764
+_md5_=9239950b61ad6b0ce299434140468b80
