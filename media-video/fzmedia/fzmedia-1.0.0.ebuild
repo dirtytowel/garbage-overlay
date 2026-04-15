@@ -12,13 +12,12 @@ KEYWORDS="~amd64 ~arm64"
 LICENSE="MIT"
 SLOT="0"
 
-IUSE="+fzy +mpv +wget"
+IUSE="+fzy +mpv"
 
 RDEPEND="
 	dev-lang/python
 	fzy? ( app-text/fzy )
 	mpv? ( media-video/mpv )
-	wget? ( net-misc/wget )
 "
 
 src_compile() { :; }
