@@ -4,7 +4,7 @@ DESCRIPTION="Just a shitty shell script to navigate file trees, play media files
 HOMEPAGE="https://github.com/dirtytowel/fzmedia"
 
 
-SRC_URI="https://github.com/dirtytowel/fzmedia/archive/refs/tags/1.0.0.tar.gz -> fzmedia-1.0.0.tar.gz"
+SRC_URI="https://github.com/dirtytowel/fzmedia/archive/refs/tags/1.0.0.tar.gz -> ${P}1.0.0.tar.gz"
 S="${WORKDIR}/fzmedia-1.0.0"
 KEYWORDS="~amd64 ~arm64"
 
