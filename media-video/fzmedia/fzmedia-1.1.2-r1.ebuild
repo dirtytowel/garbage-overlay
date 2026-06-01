@@ -4,21 +4,21 @@ DESCRIPTION="Just a shitty shell script to navigate file trees, play media files
 HOMEPAGE="https://github.com/dirtytowel/fzmedia"
 
 
-SRC_URI="https://github.com/dirtytowel/fzmedia/archive/refs/tags/v1.1.3.tar.gz -> fzmedia-1.1.3.tar.gz"
-S="${WORKDIR}/fzmedia-1.1.3"
+SRC_URI="https://github.com/dirtytowel/fzmedia/archive/refs/tags/v1.1.2.tar.gz -> fzmedia-1.1.2.tar.gz"
+S="${WORKDIR}/fzmedia-1.1.2"
 KEYWORDS="~amd64 ~arm64"
 
 
 LICENSE="MIT"
 SLOT="0"
 
-IUSE="+fzy +mpv +wget"
+IUSE="+fzy +mpv"
 
 RDEPEND="
 	dev-lang/python
 	fzy? ( app-text/fzy )
 	mpv? ( media-video/mpv )
-	wget? ( net-misc/wget )
+	net-misc/wget
 "
 
 src_compile() { :; }

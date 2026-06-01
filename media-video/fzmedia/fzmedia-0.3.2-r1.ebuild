@@ -18,6 +18,7 @@ RDEPEND="
 	dev-lang/python
 	fzy? ( app-text/fzy )
 	mpv? ( media-video/mpv )
+	net-misc/wget
 "
 
 src_compile() { :; }
